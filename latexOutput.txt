@@ -1,8 +1,36 @@
-A {\it proposition} is a statement to which it is possible to assign a value of either true or false.
-Let $p$ and $q$ be propositions. The {\it conjunction} of $p$ and $q$, denoted by $p\wedge q$ is a proposition that is true when both $p$ and $q$ are true, and false in any other condition.
-Let $p$ and $q$ be propositions. The {\it disjunction} of $p$ and $q$, denoted by $p\vee q$, is a proposition that is true when at least one of $p$ or $q$ is true, and false if both $p$ and $q$ are false.
-Let $p$ and $q$ be propositions. The {\it exclusive disjunction} of $p$ and $q$, denoted by $p\ \dot\vee\ q$ or $p\oplus q$, is a proposition that is true when exactly one of $p$ or $q$ is true, and false in any other condition.
-Let $p$ be a proposition. The {\it negation} of $p$, denoted $\neg p$, is a proposition that is true when $p$ is false, and false when $p$ is true.
-A {\it propositional formula} is a proposition constructed using propositional variables and logical operators.
-But let's not be too hasty. I said above in {\it most} technical cases, but there are some writings that take $\wedge$ and $\vee$ to have {\it equal} precedence (like addition and subtraction in arithmetic). In that case, the meaning of our proposition would have been lost without parentheses. In general, I would recommend parenthesizing liberally here, so as not to confuse the reader as to which operations take priority in a given propositional formula.
-A propositional formula is called a {\it tautology} if the formula is true, regardless of the truth values of the propositional variables from which it is constructed. Such a formula may be referred to as ``tautologically true.
+\documentclass{article}
+\usepackage{amssymb, mathrsfs, enumitem}
+\usepackage{tikz-cd}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath, epsfig, colortbl}
+\usepackage[breakable, skins]{tcolorbox}
+\setlength{\parskip}{8pt}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\begin{document}
+\section{Important Terms}
+\begin{itemize}
+
+\item A {\it proposition} is a statement to which it is possible to assign a value of either true or false.
+\item Let $p$ and $q$ be propositions. The {\it conjunction} of $p$ and $q$, denoted by $p\wedge q$ is a proposition that is true when both $p$ and $q$ are true, and false in any other condition.
+\item Let $p$ and $q$ be propositions. The {\it disjunction} of $p$ and $q$, denoted by $p\vee q$, is a proposition that is true when at least one of $p$ or $q$ is true, and false if both $p$ and $q$ are false.
+\item Let $p$ and $q$ be propositions. The {\it exclusive disjunction} of $p$ and $q$, denoted by $p\ \dot\vee\ q$ or $p\oplus q$, is a proposition that is true when exactly one of $p$ or $q$ is true, and false in any other condition.
+\item Let $p$ be a proposition. The {\it negation} of $p$, denoted $\neg p$, is a proposition that is true when $p$ is false, and false when $p$ is true.
+\item A {\it propositional formula} is a proposition constructed using propositional variables and logical operators.
+\item But let's not be too hasty. I said above in {\it most} technical cases, but there are some writings that take $\wedge$ and $\vee$ to have {\it equal} precedence (like addition and subtraction in arithmetic). In that case, the meaning of our proposition would have been lost without parentheses. In general, I would recommend parenthesizing liberally here, so as not to confuse the reader as to which operations take priority in a given propositional formula.
+\item A propositional formula is called a {\it tautology} if the formula is true, regardless of the truth values of the propositional variables from which it is constructed. Such a formula may be referred to as ``tautologically true.
+
+\end{itemize}
+\end{document}
