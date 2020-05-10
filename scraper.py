@@ -1,4 +1,4 @@
-import re, pyperclip, pprint
+import re, pyperclip
 
 regexScrape = re.compile(r'''
 [A-Z]    # begin with cpaital letter
