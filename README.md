@@ -11,6 +11,7 @@ pip install -r requirements.txt
 ```
 
  * Copy LaTeX notes onto clipboard
+ * Run scraper.py
 ```
 python3 scraper.py
 ```
